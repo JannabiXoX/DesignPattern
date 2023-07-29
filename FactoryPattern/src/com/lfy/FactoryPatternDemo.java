@@ -5,7 +5,7 @@ package com.lfy;
  * @Date:7/29/2023 4:58 PM
  */
 public class FactoryPatternDemo {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         ShapeFactory shapeFactory = new ShapeFactory();
 
         //获取Circle的对象，并调用它的draw方法
